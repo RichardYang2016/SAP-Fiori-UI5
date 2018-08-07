@@ -6,7 +6,7 @@ sap.ui.define([
 	const addSS = async(a, b) => {
 		return Promise.resolve(a + b);
 	}
-
+   
 	return BaseController.extend("example.es6.ZES6_MASTER_DETAIL_TEMPLATE.controller.App", {
 
 		onInit: function () {
